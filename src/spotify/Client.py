@@ -50,7 +50,10 @@ class Client:
       if track is None:
         return ""
       elif track["is_playing"]:
-        return track["item"]["name"]
+        if len(track["item"]["artists"]) > 1:
+          return "Various Artists - " + track["item"]["name"]
+        else:
+          return track["item"]["artists"][0]["name"] + " - " + track["item"]["name"]
       else:
         return ""
 
