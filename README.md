@@ -3,6 +3,9 @@ This plugin connects to your [Spotify](https://www.spotify.com/) account and pol
 
 It is possible to Enable/Disable the plugin and also change the polling interval.
 
+## Fork note
+I updated the code so that users can see the artist name if there is one artist performing in the song, if more than one Various Artists will be displayed near the song name.  
+
 ## Installation
 Search for `SpotifyWeb` on [Package Control](https://packagecontrol.io/installation#st3) or clone this repository into `Preferences` :arrow_right:  `Browse Packages`.
 
